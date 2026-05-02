@@ -13,7 +13,7 @@ services:
       labels:
         - "traefik.enable=true"
         - "traefik.http.routers.nudo.entrypoints=websecure"
-        - "traefik.http.routers.nudo.rule=Host(`nudo.paragu-ai.com`)"
+        - "traefik.http.routers.nudo.rule=Host(`nudo.paragu-ai.com`) || Host(`nüdo.paragu-ai.com`)"
         - "traefik.http.routers.nudo.tls=true"
         - "traefik.http.routers.nudo.tls.certresolver=letsencryptresolver"
         - "traefik.http.services.nudo.loadbalancer.server.port=3000"
