@@ -1,0 +1,155 @@
+{
+  "siteName": "Nüdo",
+  "tagline": "Hardcore Metal desde Capiatá, Paraguay",
+  "domain": "nudo.paragu-ai.com",
+  "whatsapp": "595****4569",
+  "whatsappMessage": "Hola Nüdo! Queremos contactarlos para un show.",
+  "contact": {
+    "email": "nudobandpy@gmail.com",
+    "instagram": "https://instagram.com/nudo_band",
+    "facebook": "https://www.facebook.com/N%C3%9CDO-100071029146003/",
+    "spotify": "https://open.spotify.com/artist/2N3Z6SOIw7MOSxtRyzgJLv",
+    "youtube": "https://www.youtube.com/@Nudo-fd7mz",
+    "appleMusic": "https://music.apple.com/us/artist/nudo/1794063016"
+  },
+  "navigation": {
+    "items": [
+      { "label": "Inicio", "href": "/" },
+      { "label": "Música", "href": "/musica" },
+      { "label": "Videos", "href": "/videos" },
+      { "label": "Letras", "href": "/letras" },
+      { "label": "Shows", "href": "/shows" },
+      { "label": "Galería", "href": "/galeria" },
+      { "label": "Contacto", "href": "/contacto" }
+    ],
+    "ctaText": "Escuchanos en Spotify",
+    "ctaHref": "https://open.spotify.com/artist/2N3Z6SOIw7MOSxtRyzgJLv"
+  },
+  "home": {
+    "hero": {
+      "headline": "NÜDO",
+      "subheadline": "Hardcore Metal desde Capiatá, Paraguay. Fundada en 2017.",
+      "ctaPrimaryText": "Escuchá DESAHOGO EP",
+      "ctaPrimaryHref": "/musica",
+      "ctaSecondaryText": "Seguinos en Instagram",
+      "ctaSecondaryHref": "https://instagram.com/nudo_band",
+      "trustBadges": ["Desde 2017", "Hardcore Metal", "Bad Vibes Records"]
+    },
+    "bio": {
+      "title": "Nüdo",
+      "short": "Nüdo es una banda de Hardcore Metal / Metalcore originaria de Capiatá, Paraguay. Fundada en 2017 por Edilson Gauto, combinan riffs pesados, breakdowns contundentes y una energía visceral que los ha posicionado como una de las propuestas más intensas de la escena underground paraguaya. Su EP debut DESAHOGO (2025, Bad Vibes Records) captura la furia y la crudeza de su sonido."
+    },
+    "features": [
+      { "icon": "Music", "title": "DESAHOGO EP 2025", "description": "4 temas que rompen. Bad Vibes Records." },
+      { "icon": "Calendar", "title": "En vivo", "description": "Tunakó Pool Party, BREAKDOWN FEST, Black Mango y más." },
+      { "icon": "Users", "title": "La banda", "description": "Mauricio, Manuel, Edilson, Fidel y Víctor." }
+    ]
+  },
+  "team": [
+    { "name": "Mauricio Arce", "role": "Voz", "bio": "La potencia frontal de la banda." },
+    { "name": "Manuel Díaz", "role": "Guitarra", "bio": "Guitarrista de Nüdo." },
+    { "name": "Edilson Gauto", "role": "Guitarra Líder", "bio": "Fundador de Nüdo en 2017. Guitarra líder y compositor." },
+    { "name": "Fidel Dávalos", "role": "Bajo", "bio": "Bajista de Nüdo. Las bases sólidas del sonido." },
+    { "name": "Víctor Maldonado", "role": "Batería", "bio": "Baterista de Nüdo. La máquina de la percusión." }
+  ],
+  "discography": [
+    {
+      "title": "DESAHOGO (EP)",
+      "year": "2025",
+      "type": "EP",
+      "label": "Bad Vibes Records",
+      "imageUrl": "https://i.scdn.co/image/ab67616d00001e029eb75be054c928ad5c3576e3",
+      "spotifyUrl": "https://open.spotify.com/album/6X6mvKVxK5uLqPe9yPaB3r",
+      "tracks": ["JUICIO", "ESPEJO", "CULPA", "APOCALIPSIS"]
+    },
+    {
+      "title": "CULPA (Single)",
+      "year": "2023",
+      "type": "Single",
+      "label": "Independiente",
+      "imageUrl": "https://i.scdn.co/image/ab67616d00001e02bcb531a6e29d197d153d3e4d",
+      "spotifyUrl": "https://open.spotify.com/album/1Prl93tdri8HYGguyvsXSP",
+      "tracks": ["CULPA"]
+    }
+  ],
+  "lyrics": [
+    {
+      "title": "CULPA",
+      "album": "DESAHOGO EP (2025)",
+      "lyrics": [
+        "No tiene sentido seguir acá",
+        "Siento impotencia si la culpa me desgasta",
+        "Ya no aguanto todo este dolor",
+        "",
+        "Sangre y espejos rotos",
+        "Agonizando en el suelo",
+        "Otra vez",
+        "",
+        "Ya lo intenté",
+        "Arrancarme todos los pelos",
+        "Y en el recuerdo queda el olvido",
+        "Mis demonios me atormentan y me piden mi destrucción",
+        "",
+        "La sangre se siente fría",
+        "en esta lluvia de cuchillas",
+        "",
+        "En esta lluvia de cuchillas",
+        "la sangre se siente fría",
+        "",
+        "La plaga y el miedo me dominan",
+        "Tanto tiempo, no puedo más",
+        "Fui impulsado para acabar",
+        "No es lo correcto",
+        "Dios está en silencio",
+        "",
+        "Pensás que soy imbécil",
+        "Hijo de puta",
+        "",
+        "Es mi maldición",
+        "Por qué tiemblas?",
+        "Cobarde",
+        "",
+        "No hay salvación"
+      ]
+    }
+  ],
+  "shows": [
+    { "title": "Tunakó Pool Party", "date": "Enero 2026", "venue": "Tunakó", "description": "Nüdo rompiendo en la pileta. Una de las mejores fechas del verano." },
+    { "title": "Rock & Metalcore Fest", "date": "2025", "venue": "Asunción", "description": "Nüdo en el Rock & Metalcore Fest." },
+    { "title": "BREAKDOWN FEST", "date": "2023", "venue": "BREAKDOWN FEST", "description": "Presentación en el BREAKDOWN FEST edición 2023." },
+    { "title": "Black Mango", "date": "2023", "venue": "Black Mango", "description": "Concierto compartido con Drakengard." }
+  ],
+  "gallery": [
+    { "src": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=800&q=80", "alt": "Nüdo en vivo", "category": "En Vivo" },
+    { "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80", "alt": "Nüdo tocando", "category": "En Vivo" },
+    { "src": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=800&q=80", "alt": "Multitud en show", "category": "En Vivo" },
+    { "src": "https://images.unsplash.com/photo-1501612780327-45045538702b?w=800&q=80", "alt": "Hardcore metal", "category": "En Vivo" },
+    { "src": "https://images.unsplash.com/photo-1574169208507-84376144848b?w=800&q=80", "alt": "BREAKDOWN FEST", "category": "Festivales" },
+    { "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80", "alt": "Guitarra en escena", "category": "En Vivo" },
+    { "src": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&q=80", "alt": "La banda", "category": "Banda" },
+    { "src": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=800&q=80", "alt": "Vocalista", "category": "Banda" },
+    { "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80", "alt": "Tunakó Pool Party", "category": "Festivales" }
+  ],
+  "videos": [
+    { "title": "CULPA (Lyric Video)", "url": "https://www.youtube.com/watch?v=OOLtCH8I4R4", "thumbnail": "https://i.scdn.co/image/ab67616d00001e02bcb531a6e29d197d153d3e4d" }
+  ],
+  "testimonials": [
+    { "quote": "Alto mosh pit. Tan heavy que me voy a quedar sin cabeza de tanto headbanging.", "author": "Fan en YouTube" },
+    { "quote": "Aguante Nüdooooo!", "author": "@_diandra.martinez" },
+    { "quote": "Antes tenía depresión, después escuché este EP y sigo teniendo depresión pero qué buen EP.", "author": "Fan en YouTube" }
+  ],
+  "newsletter": {
+    "title": "Enterate de los próximos shows",
+    "subtitle": "Dejanos tu email y te avisamos cuando toquemos en vivo. Sin spam, solo metal.",
+    "placeholder": "tu@email.com",
+    "submitLabel": "Suscribirme"
+  },
+  "footer": {
+    "copyright": "© 2026 Nüdo. Todos los derechos reservados. Bad Vibes Records."
+  },
+  "seo": {
+    "defaultTitle": "Nüdo — Banda de Hardcore Metal desde Capiatá, Paraguay",
+    "defaultDescription": "Nüdo es una banda de Hardcore Metal originaria de Capiatá, Paraguay. Fundada en 2017. Escuchá nuestro EP DESAHOGO en todas las plataformas. Bad Vibes Records.",
+    "ogImage": "/og-default.png"
+  }
+}
