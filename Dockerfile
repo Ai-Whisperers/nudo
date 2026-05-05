@@ -23,6 +23,4 @@ USER nextjs
 EXPOSE 3000
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
-COPY --from=builder --chown=nextjs:nodejs /app/public ./public
-COPY --from=builder --chown=nextjs:nodejs /app/content ./content
 CMD ["node", "server.js"]
