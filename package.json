@@ -27,7 +27,8 @@
     "@ai-whisperers/catalog": "^0.1.0",
     "@ai-whisperers/ui-extras": "^0.1.0",
     "@ai-whisperers/payments": "^0.1.0",
-    "@ai-whisperers/api-helpers": "^0.1.0"
+    "@ai-whisperers/api-helpers": "^0.1.0",
+    "@ai-whisperers/client-kit": "^0.1.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.0",
