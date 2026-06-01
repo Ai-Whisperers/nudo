@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { videos } from '@/data/videos'
+import { content } from '@/data/content'
 import Link from 'next/link'
 
 export default function VideosSection() {
@@ -11,13 +12,12 @@ export default function VideosSection() {
     <section id="videos" className="py-[clamp(3rem,6vw,6rem)] px-6 bg-[#0a0a0a]">
       <div className="max-w-[1200px] mx-auto">
         <h2 className="font-[family-name:var(--font-heading)] text-[clamp(1.75rem,3.5vw,3rem)] text-[#f0f0f0] mb-2">
-          Videos
+          {content.videos.heading}
         </h2>
         <p className="text-[#888] text-sm mb-10 font-[family-name:var(--font-accent)] italic">
-          Videoclips, lyric videos y presentaciones en vivo
+          {content.videos.subtitle}
         </p>
 
-        {/* Featured video */}
         <div className="mb-12">
           <div className="relative aspect-video bg-[#111] rounded-xl overflow-hidden border border-[#2a2a2a] group cursor-pointer"
             onClick={() => setShowVideo(!showVideo)}>
@@ -49,7 +49,6 @@ export default function VideosSection() {
           <p className="text-sm text-[#888] mt-1">{featured.description}</p>
         </div>
 
-        {/* Video grid */}
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           {videos.slice(1).map(video => (
             <a key={video.id} href={`/videos#${video.id}`}
@@ -81,7 +80,7 @@ export default function VideosSection() {
         <div className="text-center">
           <Link href="/videos"
             className="inline-block bg-transparent text-[#f0f0f0] px-8 py-3 rounded-lg border border-[#3a3a3a] hover:border-[#8B0000] hover:text-[#8B0000] transition-all uppercase tracking-wider text-sm no-underline">
-            Ver todos los videos →
+            {content.videos.ctaAllVideos}
           </Link>
         </div>
       </div>

@@ -1,8 +1,20 @@
-export const events = [
+export interface Event {
+  id: string
+  title: string
+  date: string
+  venue: string
+  city: string
+  status: 'upcoming' | 'past'
+  description: string
+  ticketUrl?: string
+  ticketPrice?: string
+}
+
+export const events: Event[] = [
   {
     id: 'tunako-2026',
     title: 'Tunakó Pool Party',
-    date: 'Enero 2026',
+    date: '2026-01-01',
     venue: 'Tunakó',
     city: 'Capiatá',
     status: 'past',
@@ -10,8 +22,8 @@ export const events = [
   },
   {
     id: 'rock-metalcore-fest',
-    title: 'Rock & Metalcore Fest',
-    date: '2025',
+    title: 'Rock& Metalcore Fest',
+    date: '2025-01-01',
     venue: 'Asunción',
     city: 'Asunción',
     status: 'past',
@@ -20,7 +32,7 @@ export const events = [
   {
     id: 'breakdown-fest',
     title: 'BREAKDOWN FEST',
-    date: '2023',
+    date: '2023-01-01',
     venue: 'BREAKDOWN FEST',
     city: 'Asunción',
     status: 'past',
@@ -29,7 +41,7 @@ export const events = [
   {
     id: 'black-mango',
     title: 'Black Mango',
-    date: '2023',
+    date: '2023-01-01',
     venue: 'Black Mango',
     city: 'Asunción',
     status: 'past',

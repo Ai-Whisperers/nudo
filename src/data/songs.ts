@@ -1,11 +1,21 @@
 export const songs = [
   {
-    id: 'desahogo',
-    title: 'DESAHOGO',
-    subtitle: 'EP 2025 — 4 temas que rompen',
+    id: 'juicio',
+    title: 'JUICIO',
+    subtitle: 'EP 2025 — Track 1',
     genre: 'Metalcore',
-    duration: '-',
-    mood: 'Agresivo, catártico'
+    duration: '3:12',
+    mood: 'Agresivo, catártico',
+    lyrics: undefined,
+  },
+  {
+    id: 'espejo',
+    title: 'ESPEJO',
+    subtitle: 'EP 2025 — Track 2',
+    genre: 'Metalcore',
+    duration: '4:01',
+    mood: 'Oscuro, introspectivo',
+    lyrics: undefined,
   },
   {
     id: 'culpa',
@@ -47,5 +57,14 @@ No hay salvación`,
     genre: 'Metalcore',
     duration: '3:45',
     mood: 'Intenso, visceral'
+  },
+  {
+    id: 'apocalipsis',
+    title: 'APOCALIPSIS',
+    subtitle: 'EP 2025 — Track 4',
+    genre: 'Metalcore',
+    duration: '3:58',
+    mood: 'Devastador, explosivo',
+    lyrics: undefined,
   }
 ]

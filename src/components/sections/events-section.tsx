@@ -1,12 +1,17 @@
 'use client'
 import { useState } from 'react'
-import { events } from '@/data/events'
+import { events, type Event } from '@/data/events'
 
 export default function EventsSection() {
   const [showPast, setShowPast] = useState(false)
   const upcoming = events.filter(e => e.status === 'upcoming')
   const past = events.filter(e => e.status === 'past')
   const visiblePast = showPast ? past : []
+
+  const formatDate = (dateStr: string) => {
+    const d = new Date(dateStr)
+    return d.toLocaleDateString('es-PY', { year: 'numeric', month: 'short', day: 'numeric' })
+  }
 
   return (
     <section id="events" className="py-[clamp(3rem,6vw,6rem)] px-6 bg-[#111]">
@@ -28,13 +33,13 @@ export default function EventsSection() {
                 </div>
                 <div className="flex-1">
                   <h3 className="font-bold text-lg">{event.title}</h3>
-                  <p className="text-xs text-[#888]">{(event as any).date} · {event.venue}, {event.city}</p>
+                  <p className="text-xs text-[#888]">{formatDate(event.date)} · {event.venue}, {event.city}</p>
                   <p className="text-sm text-[#666] mt-2">{event.description}</p>
                 </div>
-                {(event as any).ticketUrl && (
-                  <a href={(event as any).ticketUrl} target="_blank" rel="noopener noreferrer"
+                {event.ticketUrl && (
+                  <a href={event.ticketUrl} target="_blank" rel="noopener noreferrer"
                     className="bg-[#8B0000] text-white px-5 py-2 rounded-lg text-xs font-semibold no-underline hover:bg-[#B22222] transition-all whitespace-nowrap">
-                    {(event as any).ticketPrice || 'Tickets'}
+                    {event.ticketPrice || 'Tickets'}
                   </a>
                 )}
               </div>
@@ -42,7 +47,6 @@ export default function EventsSection() {
           </div>
         )}
 
-        {/* Past events */}
         <div className="space-y-3">
           <button onClick={() => setShowPast(!showPast)}
             className="text-xs uppercase tracking-[0.2em] text-[#888] hover:text-[#f0f0f0] transition-colors">
@@ -52,7 +56,7 @@ export default function EventsSection() {
             <div key={event.id} className="bg-[#1a1a1a] border border-[#2a2a2a] rounded-xl p-5 flex items-start gap-4 opacity-80">
               <div className="flex-1">
                 <h3 className="font-semibold">{event.title}</h3>
-                <p className="text-xs text-[#666]">{event.date} · {event.venue}, {event.city}</p>
+                <p className="text-xs text-[#666]">{formatDate(event.date)} · {event.venue}, {event.city}</p>
                 <p className="text-sm text-[#666] mt-1">{event.description}</p>
               </div>
             </div>

@@ -1,9 +1,19 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import type { Video } from '@/data/videos'
 
 export default function VideoPageClient({ videos }: { videos: Video[] }) {
   const [playing, setPlaying] = useState<string | null>(null)
+
+  useEffect(() => {
+    const hash = window.location.hash.replace('#', '')
+    if (hash) {
+      const target = document.getElementById(hash)
+      if (target) {
+        setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100)
+      }
+    }
+  }, [])
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] py-[clamp(3rem,6vw,6rem)] px-6">
