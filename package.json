@@ -37,7 +37,7 @@
     "@types/react": "^19.0.0",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.8.0",
-    "@ai-whisperers/test-vitest": "^0.1.0",
+    "@ai-whisperers/test-vitest": "^0.2.0",
     "vitest": "^3.0.0",
     "@ai-whisperers/product": "^0.1.0",
     "@ai-whisperers/checkout": "^0.1.0",

@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "id": "desahogo-tshirt-preorder",
+      "name": "DESAHOGO T-Shirt (Pre-Order)",
+      "price": { "pyg": "120,000", "usd": "15" },
+      "sizes": ["S", "M", "L", "XL"],
+      "available": true,
+      "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+      "estimatedStock": 50
+    },
+    {
+      "id": "nudo-hoodie-preorder",
+      "name": "Nüdo Hoodie (Pre-Order)",
+      "price": { "pyg": "250,000", "usd": "32" },
+      "sizes": ["S", "M", "L", "XL"],
+      "available": true,
+      "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400",
+      "estimatedStock": 20
+    },
+    {
+      "id": "desahogo-cd-preorder",
+      "name": "DESAHOGO EP (CD Digital)",
+      "price": { "pyg": "50,000", "usd": "6" },
+      "available": true,
+      "estimatedStock": 100
+    },
+    {
+      "id": "culpa-poster-preorder",
+      "name": "CULPA Lyric Poster",
+      "price": { "pyg": "80,000", "usd": "10" },
+      "available": true,
+      "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+      "estimatedStock": 30
+    }
+  ],
+  "discountCode": "NUDOVIP"
+}

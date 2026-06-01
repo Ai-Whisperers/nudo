@@ -1,0 +1,56 @@
+[
+  {
+    "id": "desahogo-release-party",
+    "title": "DESAHOGO EP Release Party",
+    "fullDate": "2026-06-15",
+    "date": "Junio 15, 2026",
+    "venue": "Sala Aquiles",
+    "city": "Asunción",
+    "status": "upcoming",
+    "description": "Presentación oficial del nuevo EP DESAHOGO. Entradas limitadas.",
+    "ticketUrl": "https://wa.me/595123456789?text=Hola!%20Quiero%20entradas%20para%20DESAHOGO%20EP%20Release%20Party",
+    "imageUrl": "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800",
+    "meetGreetSlots": 30,
+    "meetGreetPrice": { "pyg": "50,000", "usd": "6" }
+  },
+  {
+    "id": "tunako-2026",
+    "title": "Tunakó Pool Party",
+    "fullDate": "2026-01-15",
+    "date": "Enero 2026",
+    "venue": "Tunakó",
+    "city": "Capiatá",
+    "status": "past",
+    "description": "Nüdo rompiendo en la pileta. Una de las mejores fechas del verano."
+  },
+  {
+    "id": "rock-metalcore-fest",
+    "title": "Rock& Metalcore Fest",
+    "fullDate": "2025-12-01",
+    "date": "Diciembre 2025",
+    "venue": "Asunción",
+    "city": "Asunción",
+    "status": "past",
+    "description": "Nüdo en el Rock & Metalcore Fest. Compartiendo escenario con bandas de la escena."
+  },
+  {
+    "id": "breakdown-fest-2025",
+    "title": "BREAKDOWN FEST 2025",
+    "fullDate": "2025-08-20",
+    "date": "Agosto 2025",
+    "venue": "Centro Cultural Joseguillo",
+    "city": "Asunción",
+    "status": "past",
+    "description": "Presentación en el BREAKDOWN FEST edición 2025."
+  },
+  {
+    "id": "black-mango",
+    "title": "Black Mango",
+    "fullDate": "2023-11-10",
+    "date": "Noviembre 2023",
+    "venue": "Black Mango",
+    "city": "Asunción",
+    "status": "past",
+    "description": "Concierto compartido con Drakengard."
+  }
+]

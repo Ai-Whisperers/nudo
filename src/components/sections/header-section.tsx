@@ -2,7 +2,17 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { band } from '@/data/band.config'
-import { navLinks } from '@/data/nav'
+
+const navLinks = [
+  { label: 'Tour', href: '/tour' },
+  { label: 'Discography', href: '/discography' },
+  { label: 'Meet&Greet', href: '/meet-greet' },
+  { label: 'Pre-Order', href: '/preorder' },
+  { label: 'Gallery', href: '/gallery' },
+  { label: 'Members', href: '/members' },
+  { label: 'Contact', href: '/contact' },
+  { label: 'Donate', href: '/donate' },
+]
 
 export default function HeaderSection() {
   const [menuOpen, setMenuOpen] = useState(false)

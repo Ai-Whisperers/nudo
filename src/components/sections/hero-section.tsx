@@ -1,11 +1,14 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { band } from '@/data/band.config'
-import { discography } from '@/data/discography'
+import Link from 'next/link'
+import CountdownTimer from '@/components/CountdownTimer'
+import { upcomingEvents } from '@/data/events'
 
 export default function HeroSection() {
   const [loaded, setLoaded] = useState(false)
   useEffect(() => { setLoaded(true) }, [])
+
+  const nextEvent = upcomingEvents[0]
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -15,28 +18,37 @@ export default function HeroSection() {
 
       <div className={`relative text-center px-6 transition-all duration-1000 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         <p className="text-[#8B0000] text-sm uppercase tracking-[0.3em] mb-4 font-[family-name:var(--font-accent)] italic">
-          Desde {band.origin}
+          Desde Paraguay
         </p>
         <h1 className="font-[family-name:var(--font-heading)] text-[clamp(3rem,8vw,7rem)] text-[#f0f0f0] mb-4 leading-none">
-          {band.name}
+          Nüdo
         </h1>
-        <p className="text-[#888] text-lg max-w-md mx-auto mb-10 leading-relaxed">
-          {band.meta.tagline}
+        <p className="text-[#888] text-lg max-w-md mx-auto mb-6 leading-relaxed">
+          Hardcore Metal · Fundada en 2017 · Bad Vibes Records
         </p>
+
+        {nextEvent && (
+          <div className="mb-8 p-4 bg-[#111]/50 border border-[#2a2a2a] rounded-xl inline-block">
+            <p className="text-[#888] text-xs uppercase tracking-wider mb-2">Próximo Show</p>
+            <p className="text-[#f0f0f0] font-semibold mb-2">{nextEvent.title} — {nextEvent.date}</p>
+            <CountdownTimer targetDate={nextEvent.fullDate} />
+          </div>
+        )}
+
         <div className="flex gap-4 justify-center flex-wrap">
           <a href="#music"
             className="bg-[#8B0000] text-white px-8 py-3.5 rounded-lg font-semibold no-underline hover:bg-[#B22222] transition-all uppercase tracking-wider text-sm glow-red">
-            Escuchar {discography[0].title}
+            Escuchar
           </a>
-          <a href={band.socials.instagram} target="_blank" rel="noopener noreferrer"
+          <Link href="/tour"
             className="bg-transparent text-[#f0f0f0] px-8 py-3.5 rounded-lg font-semibold no-underline border border-[#3a3a3a] hover:border-[#8B0000] hover:text-[#8B0000] transition-all uppercase tracking-wider text-sm">
-            Instagram
-          </a>
+            Ver Tour
+          </Link>
         </div>
         <div className="flex gap-8 justify-center mt-12 text-xs text-[#555] uppercase tracking-[0.2em]">
-          <span>{band.genre}</span>
+          <span>Hardcore Metal</span>
           <span className="text-[#3a3a3a]">|</span>
-          <span>Desde {band.founded}</span>
+          <span>Desde 2017</span>
         </div>
       </div>
 

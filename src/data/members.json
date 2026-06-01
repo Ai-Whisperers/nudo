@@ -1,0 +1,64 @@
+[
+  {
+    "id": "diego",
+    "name": "Diego",
+    "role": "Guitarra / Voz",
+    "bio": "Vocalista y guitarist de Nüdo desde la fundación en 2017. Influenciado por el hardcore neoyorquino de los 90s y el metalcore paraguayo. Escribe letras que critican el sistema social y buscan desahogarse a través de la música.",
+    "imageUrl": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600",
+    "socials": {
+      "instagram": "https://instagram.com/diego_nudo"
+    },
+    "equipment": [
+      { "category": "Guitarras", "items": ["ESP LTD EC-256", "Jackson JS32"] },
+      { "category": "Amplificadores", "items": ["Peavey 6505+", "Boss Katana 50"] },
+      { "category": "Pedales", "items": ["Boss DS-1", "Boss ME-80", "MXR Phase 90"] }
+    ],
+    "joinedYear": 2017
+  },
+  {
+    "id": "tony",
+    "name": "Tony",
+    "role": "Guitarra",
+    "bio": "Guitarrista principal de Nüdo. Aporta las melodías agresivas y los breakdowns que definen el sonido de la banda. Fan del djent y el progressive metal cuando no está tocando hardcore.",
+    "imageUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600",
+    "socials": {
+      "instagram": "https://instagram.com/tony_nudo"
+    },
+    "equipment": [
+      { "category": "Guitarras", "items": ["Schecter Omen-6", "Ibanez RG350"] },
+      { "category": "Amplificadores", "items": ["Line 6 Helix", "Mesa Boogie Dual Rectifier"] },
+      { "category": "Pedales", "items": ["ISP Decimator", "Eventide TimeFactor"] }
+    ],
+    "joinedYear": 2018
+  },
+  {
+    "id": "derlis",
+    "name": "Derlis",
+    "role": "Bajo",
+    "bio": "El bajo de Nüdo. Aporta el groove que hace mover la cabeza. Con influences del punk y el funk, Derlis trae un sonido único a las líneas de bajo del hardcore paraguayo.",
+    "imageUrl": "https://images.unsplash.com/photo-1520860560190-6b9f2a1b4a4a?w=600",
+    "socials": {
+      "instagram": "https://instagram.com/derlis_nudo"
+    },
+    "equipment": [
+      { "category": "Bajos", "items": ["Fender Jazz Bass", "Squier Vintage Modified"] },
+      { "category": "Amplificadores", "items": ["Ampeg SVT-CL", "Hartke LH500"] }
+    ],
+    "joinedYear": 2017
+  },
+  {
+    "id": "juan",
+    "name": "Juan",
+    "role": "Batería",
+    "bio": "Baterista de Nüdo desde el inicio. El motor de la banda — precisa, agressiva y siempre a tiempo. Más allá del hardcore, Juan está influenciado por el jazz y la música latina.",
+    "imageUrl": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=600",
+    "socials": {
+      "instagram": "https://instagram.com/juan_nudo"
+    },
+    "equipment": [
+      { "category": "Batería", "items": ["Pearl Export", "Zildjian A Custom"] },
+      { "category": "Hardware", "items": ["DW 5000", "Tama Iron Cobra"] }
+    ],
+    "joinedYear": 2017
+  }
+]

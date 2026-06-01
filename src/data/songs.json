@@ -1,0 +1,58 @@
+[
+  {
+    "id": "culpa",
+    "albumId": "desahogo",
+    "title": "CULPA",
+    "trackNumber": 1,
+    "duration": "3:42",
+    "lyrics": "No me importa lo que digan\nNo me importa el juicio\nYo cargué con la culpa\nDe todo lo que hice\n\n[Pre-coro]\nY no es mi culpa\nNo es mi sangre\nEs el sistema que me alimenta\n\n[Coro]\nCulpa, culpa, yo llevo la culpa\nCulpa, culpa, pero no es mi error\nCulpa, culpa, tú la制造的\nCulpa, culpa, hasta cuando voy a aguantar\n\n[Verso 2]\nMe dicen que estoy loco\nQue debo cambiar\nPero esta es mi manera\nDe poder subsistir\n\n[Pre-coro]\nY no es mi culpa\nNo es mi sangre\nEs el sistema que me alimenta\n\n[Coro]\nCulpa, culpa, yo llevo la culpa\nCulpa, culpa, pero no es mi error\nCulpa, culpa, tú la制造的\nCulpa, culpa, hasta cuando voy a aguantar\n\n[Puente]\nHasta cuando... hasta cuando...\nHasta cuando voy a seguir\nCargando con tus errores\nCuando yo solo quiero vivir\n\n[Coro]\nCulpa, culpa, yo llevo la culpa\nCulpa, culpa, pero no es mi error\nCulpa, culpa, tú la制造的\nCulpa, culpa...\n\n[Outro]\nNo es mi culpa...",
+    "meaning": "CULPA habla sobre cargar con culpas que no nos pertenecen. El sistema nos hace creer que somos responsables de situaciones que no controlamos. Es un grito de frustración contra la sociedad que nos juzga sin conocer nuestras historias.",
+    "featuredLyric": "Culpa, culpa, yo llevo la culpa / Culpa, culpa, pero no es mi error",
+    "credits": [
+      { "role": "Letras", "member": "Diego" },
+      { "role": "Composición", "member": "Nüdo" }
+    ]
+  },
+  {
+    "id": "desahogo",
+    "albumId": "desahogo",
+    "title": "DESAHOGO",
+    "trackNumber": 2,
+    "duration": "4:15",
+    "lyrics": "Sale de adentro\nNo puedo más\nNecesito desahogarme\nAntes de explotar\n\n[Verso]\nLas paredes se achican\nEl aire no alcanza\nNecesito gritar\nPero nadie me hace caso\n\n[Coro]\nDesahogo, desahogo\nNecesito sacarlo\nDesahogo, desahogo\nAntes de dañarme\n\n[Verso 2]\nLas palabras se acumulan\nLos silencios me matan\nHoy voy a hablar\nAunque el mundo se caiga\n\n[Puente]\nEscúchame bien\nNo voy a callar\nEste es mi desahogo\nY no lo puedo evitar\n\n[Coro]\nDesahogo, desahogo\nNecesito sacarlo\nDesahogo, desahogo...",
+    "meaning": "La canción que da nombre al EP. Representa esa necesidad urgente de expresarse cuando todo se acumula. El hardcore como terapia, como desahogo necesario para sobrevivir.",
+    "featuredLyric": "Necesito desahogarme / Antes de explotar",
+    "credits": [
+      { "role": "Letras", "member": "Diego" },
+      { "role": "Composición", "member": "Nüdo" }
+    ]
+  },
+  {
+    "id": "maldito-vicio",
+    "albumId": "desahogo",
+    "title": "MALDITO VICIO",
+    "trackNumber": 3,
+    "duration": "3:58",
+    "lyrics": "Es más fuerte que yo\nNo puedo parar\nEste maldito vicio\nMe tiene de奴隶\n\n[Verso]\nEmpezó como juego\nSe volvió necesidad\nAhora no sé vivir\nSin esta velocidad\n\n[Coro]\nMaldito vicio que me consume\nMaldita necesidad que me hace ser\nMaldito vicio que me define\nCuando solo quiero ser libre\n\n[Verso 2]\nMe judgan sin saber\nLo que es estar ahí\nEs fácil criticar\nCuando no te tocó vivir\n\n[Coro]\nMaldito vicio que me consume...",
+    "meaning": "No habla literalmente de adicciones. Habla de cualquier cosa que te consuma — puede ser el trabajo, las relaciones tóxicas, o incluso la música misma. Esa dualidad de que algo te destruye pero no puedes dejarlo.",
+    "featuredLyric": "Es más fuerte que yo / No puedo parar",
+    "credits": [
+      { "role": "Letras", "member": "Diego" },
+      { "role": "Composición", "member": "Nüdo" }
+    ]
+  },
+  {
+    "id": "prometeo",
+    "albumId": "desahogo",
+    "title": "PROMETEO",
+    "trackNumber": 4,
+    "duration": "5:22",
+    "lyrics": "Fui yo quien te dio el fuego\nFui yo quien te abrió los ojos\nY ahora me castigas por ello\nEncadenado a esta roca\n\n[Verso]\nTe di la verdad\nMe devolviste cadenas\nTe di la luz\nMe devolviste la noche\n\n[Coro]\nPrometeo, encadenado\nPor dar a los humanos\nLo que los dioses no quisieron dar\nPrometeo, me duele el pecho\nPero no me arrepiento de nada\n\n[Verso 2]\nCada día el águila vuelve\nCada día me como el hígado\nPero sé que valió la pena\nQue el humano tenga el fuego\n\n[Puente]\nSi tuviera que volver\nLo haría otra vez\nPorque el conocimiento\nVale más que la paz\n\n[Coro]\nPrometeo, encadenado...",
+    "meaning": "PROMETEO cierra el EP con la metáfora del titán encadenado. Representa la dualidad del artista — dar todo al público y recibir críticas y castigos a cambio, pero sin arrepentirse. El artista que se sacrifica por su creación.",
+    "featuredLyric": "Si tuviera que volver / Lo haría otra vez",
+    "credits": [
+      { "role": "Letras", "member": "Diego" },
+      { "role": "Composición", "member": "Nüdo" }
+    ]
+  }
+]

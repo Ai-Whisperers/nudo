@@ -1,0 +1,27 @@
+{
+  "faq": [
+    {
+      "question": "¿Cuánto dura el meet& greet?",
+      "answer": "Aproximadamente 15-20 minutos por sesión grupal."
+    },
+    {
+      "question": "¿Puedo llevar merchandising para firmar?",
+      "answer": "Sí! Pueden traer remeras, posters o CDs del EP para firmar."
+    },
+    {
+      "question": "¿Se puede tomar fotos?",
+      "answer": "Sí, habrá un photographer oficial. Recibirás las fotos por WhatsApp."
+    },
+    {
+      "question": "¿Hay descuento en merch durante el meet & greet?",
+      "answer": "Sí, 10% de descuento en toda la merch con tu pulsera VIP."
+    },
+    {
+      "question": "¿Se puede pagar en el momento?",
+      "answer": "Sí, aceptamos Gs, USD, Tigo Money y WhatsApp Pay."
+    }
+  ],
+  "slots": {
+    "desahogo-release-party": { "total": 30, "booked": 12 }
+  }
+}

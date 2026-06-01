@@ -11,6 +11,7 @@ const securityHeaders = [
 
 const config: NextConfig = {
   output: "standalone",
+  outputFileTracingRoot: "/home/ai-whisperers/nudo/nudo",
   poweredByHeader: false,
   async headers() {
     return [

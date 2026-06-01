@@ -1,0 +1,71 @@
+[
+  {
+    "id": "tunako-01",
+    "eventId": "tunako-2026",
+    "eventName": "Tunakó Pool Party",
+    "imageUrl": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300",
+    "caption": "Nüdo en plena actuación",
+    "photographer": "Foto por @capiata_rock",
+    "type": "concert",
+    "featured": true,
+    "createdAt": "2026-01-15"
+  },
+  {
+    "id": "tunako-02",
+    "eventId": "tunako-2026",
+    "eventName": "Tunakó Pool Party",
+    "imageUrl": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=300",
+    "caption": "La banda calentando el escenario",
+    "photographer": "Foto por @capiata_rock",
+    "type": "concert",
+    "featured": true,
+    "createdAt": "2026-01-15"
+  },
+  {
+    "id": "breakdown-01",
+    "eventId": "breakdown-fest-2025",
+    "eventName": "BREAKDOWN FEST 2025",
+    "imageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=300",
+    "caption": "Público enardecido",
+    "photographer": "Foto por @paraguay_metal",
+    "type": "concert",
+    "featured": false,
+    "createdAt": "2025-08-20"
+  },
+  {
+    "id": "meet-01",
+    "eventId": "desahogo-release-party",
+    "eventName": "DESAHOGO EP Release Party",
+    "imageUrl": "https://images.unsplash.com/photo-1520860560190-6b9f2a1b4a4a?w=800",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1520860560190-6b9f2a1b4a4a?w=300",
+    "caption": "Meet & Greet VIP",
+    "type": "meet-greet",
+    "featured": true,
+    "createdAt": "2026-06-15"
+  },
+  {
+    "id": "merch-01",
+    "eventId": "desahogo-release-party",
+    "eventName": "DESAHOGO EP Release Party",
+    "imageUrl": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=800",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=300",
+    "caption": "Merch oficial Nüdo",
+    "type": "merch",
+    "featured": false,
+    "createdAt": "2026-06-15"
+  },
+  {
+    "id": "backstage-01",
+    "eventId": "tunako-2026",
+    "eventName": "Tunakó Pool Party",
+    "imageUrl": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=300",
+    "caption": "Backstage vibes",
+    "type": "behind-scenes",
+    "featured": false,
+    "createdAt": "2026-01-15"
+  }
+]

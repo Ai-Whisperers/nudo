@@ -1,0 +1,68 @@
+{
+  "tiers": [
+    {
+      "id": "fan",
+      "amount": { "pyg": "20,000", "usd": "2.5" },
+      "label": "Fan",
+      "description": "Apoyá a la banda con un café virtual",
+      "perks": ["Nombre en el wall de fans"]
+    },
+    {
+      "id": "supporter",
+      "amount": { "pyg": "50,000", "usd": "6" },
+      "label": "Supporter",
+      "description": "Contribuí al próximo videoclips",
+      "perks": ["Nombre en credits del próximo video", "Sticker pack digital"]
+    },
+    {
+      "id": "vip",
+      "amount": { "pyg": "100,000", "usd": "12" },
+      "label": "VIP",
+      "description": "Ayudá a cubrir costos del EP físico",
+      "perks": ["Nombre en credits", "Acceso anticipado a merch", "Sticker pack + Poster digital"]
+    },
+    {
+      "id": "patron",
+      "amount": { "pyg": "200,000", "usd": "24" },
+      "label": "Patron",
+      "description": "Patrociná la producción del nuevo single",
+      "perks": ["Nombre en credits", "CD digital del EP", "Merch exclusiva", "Meet & greet gratis"]
+    }
+  ],
+  "bankAccounts": [
+    {
+      "bank": "Banco Continental",
+      "accountType": "corriente",
+      "accountNumber": "1234567890123",
+      "accountHolder": "NÜDO BAND",
+      "ruc": "80012345-9",
+      "alias": "NUDO.BAND"
+    },
+    {
+      "bank": "Banco Itaú",
+      "accountType": "corriente",
+      "accountNumber": "9876543210987",
+      "accountHolder": "NÜDO BAND",
+      "ruc": "80012345-9"
+    }
+  ],
+  "paymentQRCodes": {
+    "tigoMoney": {
+      "phone": "595123456789",
+      "name": "Nüdo Band",
+      "alias": "nudoband"
+    },
+    "whatsappPay": {
+      "phone": "595123456789"
+    }
+  },
+  "showVenueBankDetails": {
+    "venueName": "Sala Aquiles",
+    "bank": "Banco Continental",
+    "accountType": "corriente",
+    "accountNumber": "1234567890123",
+    "accountHolder": "NÜDO BAND - EVENTOS",
+    "alias": "NUDO.EVENTO",
+    "note": "Para pagos de meet & greet y pre-orders en booth"
+  }
+}

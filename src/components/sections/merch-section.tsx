@@ -59,7 +59,7 @@ export default function MerchSection() {
 
               {/* WhatsApp Order */}
               <a href={`https://wa.me/${WA_NUMBER.replace(/\D/g, "")}?text=${encodeURIComponent(
-                selectedSize[item.id] ? item.waTemplate.replace('[SIZE]', selectedSize[item.id]) : item.waTemplate
+                selectedSize[item.id] ? (item.waTemplate || '').replace('[SIZE]', selectedSize[item.id]) : (item.waTemplate || '')
               )}`} target="_blank" rel="noopener noreferrer"
                 className="block text-center bg-[#25D366] text-white text-xs px-4 py-2.5 rounded-lg font-semibold no-underline hover:bg-[#20BD5A] transition-all">
                 Order via WhatsApp

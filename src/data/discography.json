@@ -1,0 +1,21 @@
+[
+  {
+    "id": "desahogo",
+    "title": "DESAHOGO",
+    "year": 2025,
+    "type": "EP",
+    "coverUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800",
+    "description": "El EP debut de Nüdo. 4 tracks de hardcore/metalcore que capturan la esencia de la escena paraguaya. Grabado en La Casa del Ruido, masterizado en Buenos Aires.",
+    "streamingLinks": {
+      "spotify": "https://open.spotify.com/artist/2N3Z6SOIw7MOSxtRyzgJLv",
+      "youtube": "https://www.youtube.com/results?search_query=N%C3%BCdo+DESAHOGO+EP"
+    },
+    "tracklist": ["CULPA", "DESAHOGO", "MALDITO VICIO", "PROMETEO"],
+    "credits": [
+      { "role": "Guitarra/Voz", "members": ["Diego"] },
+      { "role": "Guitarra", "members": ["Tony"] },
+      { "role": "Bajo", "members": ["Derlis"] },
+      { "role": "Batería", "members": ["Juan"] }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "category": "venue",
+    "name": "Sala Aquiles",
+    "email": "booking@salaaquiles.com.py",
+    "description": "Principal sala de conciertos en Asunción. Capacidad 500 personas.",
+    "available": true
+  },
+  {
+    "category": "venue",
+    "name": "Centro Cultural Joseguillo",
+    "email": "contacto@joseguillo.py",
+    "description": "Espacio cultural alternativo. Escenario al aire libre.",
+    "available": true
+  },
+  {
+    "category": "producer",
+    "name": "Estudio La Casa del Ruido",
+    "email": "produccion@casadelruido.com",
+    "phone": "+595 21 123 456",
+    "description": "Estudio de grabación y producción musical. Especializado en metal/hardcore.",
+    "available": true
+  },
+  {
+    "category": "video",
+    "name": "Cinepunk Productions",
+    "email": "hello@cinepunk.tv",
+    "whatsapp": "595981234567",
+    "description": "Producción de videoclips, documentaries y contenido visual para bandas.",
+    "available": true
+  },
+  {
+    "category": "video",
+    "name": "Metal Media Paraguay",
+    "email": "contacto@metalmediapy.com",
+    "description": "Cobertura de conciertos, entrevistas y contenido para redes.",
+    "available": true
+  },
+  {
+    "category": "press",
+    "name": "Rock Paraguayo",
+    "email": "redaccion@rockparaguayo.com",
+    "description": "Revista especializada en rock/metal paraguayo.",
+    "available": true
+  },
+  {
+    "category": "booking",
+    "name": "Bad Vibes Records",
+    "email": "nudobandpy@gmail.com",
+    "whatsapp": "595123456789",
+    "description": "Sello discográfico y representación de Nüdo.",
+    "available": true
+  },
+  {
+    "category": "label",
+    "name": "Bad Vibes Records",
+    "email": "badvibesrecords@gmail.com",
+    "description": "Distribución física y digital. Sellos asociados a Nüdo.",
+    "available": true
+  }
+]
